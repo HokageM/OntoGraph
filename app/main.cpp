@@ -9,7 +9,6 @@ int main() {
         return 1;
     }
 
-    for(int i = 0; i < 100; i++) {    
     auto dfs_result = graph.dfsExcludePredicate("centrifuging", {"SubClassOf", "rdfs:subClassOf"});
     //std::cout << "\nDFS from 'centrifuge' (excluding SubClassOf):" << std::endl;
     for (const auto& [name, attributes] : dfs_result) {

@@ -34,7 +34,8 @@ OntoGraph is a C++ tool that converts RDF/XML ontologies into graph structures, 
 3. **Build the project with CMake:**
    ```bash
    cmake -S . -B build
-   cmake --build build
+   cmake --preset conan-debug
+   cmake --build --preset conan-debug
    ```
 
 This will produce the `ontograph_cli` executable in the `build/app` directory.
