@@ -1,6 +1,13 @@
 # Prerequisites
 *.d
 
+# Build directory
+build/
+.venv
+.vscode
+
+CMakeUserPresets.json
+
 # Compiled Object files
 *.slo
 *.lo
